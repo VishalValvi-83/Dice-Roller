@@ -31,3 +31,17 @@ body {
     cursor: pointer;
 
 }
+
+@keyframes roll {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.animation {
+    animation: roll 1s infinite;
+}
